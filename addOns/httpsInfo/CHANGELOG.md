@@ -5,7 +5,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## Unreleased
 
+
+## [12] - 2019-04-26
+
 - New tabbed UI.
+- Update to DeepViolet 5.1.16.
 
 ## 11 - 2017-11-28
 
@@ -52,3 +56,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 
 
+[12]: https://github.com/zaproxy/zap-extensions/releases/httpsInfo-v12

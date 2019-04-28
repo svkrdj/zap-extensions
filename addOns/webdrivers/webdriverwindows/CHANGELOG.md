@@ -5,6 +5,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## Unreleased
 
+
+## [8] - 2019-04-23
+
 - Fix link in help page.
 - Remove IEDriverServer, IE is no longer provided by Selenium add-on.
 - Update geckodriver to v0.24.0.
@@ -48,3 +51,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 - First release: Firefox v0.13.0 Chrome v2.27 IE 3.0.0
 
+[8]: https://github.com/zaproxy/zap-extensions/releases/webdriverwindows-v8

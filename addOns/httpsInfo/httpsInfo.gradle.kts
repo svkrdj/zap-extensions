@@ -1,4 +1,4 @@
-version = "12"
+version = "13"
 description = "Displays HTTPS configuration information."
 
 zapAddOn {
@@ -8,12 +8,16 @@ zapAddOn {
     manifest {
         author.set("ZAP Dev Team")
     }
+
+    wikiGen {
+        wikiFilesPrefix.set("HelpAddonsHttpsinfo")
+    }
 }
 
 dependencies {
-    implementation(files("lib/dvAPI_5.0.3.jar"))
+    implementation("com.github.spoofzu:DeepViolet:5.1.16")
     implementation("org.slf4j:slf4j-log4j12:1.7.6") {
-        // Bundled in Deep Violet JAR.
-        exclude(group = "org.slf4j", module = "slf4j-api")
+        // Provided by ZAP.
+        exclude(group = "log4j")
     }
 }
